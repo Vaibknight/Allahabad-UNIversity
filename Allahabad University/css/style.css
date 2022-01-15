@@ -114,3 +114,26 @@ body{
 .height{
 	height:400px;
 }
+.row::after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.position{
+	position: relative;
+    top: 10px;
+}
+.card{
+	box-shadow: 1px 0 15px -1px rgb(0 0 0 / 35%);
+    padding: 20px 0px;
+	background: #fff;
+    border-radius: 5px;
+}
+.bg-red{
+	background: #a51c30;
+    padding: 10px;
+    color: white;
+}
+.red{
+	    color: #a51c30;
+}
