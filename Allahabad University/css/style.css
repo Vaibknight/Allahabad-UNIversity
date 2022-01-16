@@ -20,6 +20,9 @@ body{
 .margin-left-right-10{
 	margin:0px 10px;
 }
+.margin-top-bottom-10{
+	margin:10px 0px;
+}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -136,4 +139,13 @@ body{
 }
 .red{
 	    color: #a51c30;
+}
+[line="line"]{
+	    border-bottom: 1px solid;
+    position: relative;
+    top: 40px;
+}
+[border-line="line"]{
+	    border-bottom: 1px solid;
+    border-color: #ececec;
 }
