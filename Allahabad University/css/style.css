@@ -140,6 +140,10 @@ body{
     padding: 10px;
     color: white;
 }
+.gray-bg{
+	    background: #eee;
+    padding: 50px 0;
+}
 .red{
 	    color: #a51c30;
 }
@@ -152,9 +156,9 @@ body{
 	    border-bottom: 1px solid;
     border-color: #ececec;
 }
-.gray-bg{
+.gray-1-bg{
 	    background: #eee;
-    padding: 10px;
+    padding: 80px;
 }
 .font{
 	    font-size: 25px;
@@ -244,4 +248,22 @@ body{
     position: relative;
     top: 10px;
 	
+}
+.red-tag{
+	background: #a51c30;
+    padding: 12px 30px;
+    color: white;
+}
+.ab{
+	    display: inline-block;
+		border: 1px solid;
+		border-color: #a51c30;
+		padding-bottom: 10px;
+		border-radius: 5px;
+}
+[img="border"]{
+	    background: #ccc;
+    padding: 5px;
+    max-height: 80px;
+    height: 75px;
 }
