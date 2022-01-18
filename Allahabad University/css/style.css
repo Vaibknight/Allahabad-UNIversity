@@ -23,6 +23,9 @@ body{
 .margin-top-bottom-10{
 	margin:10px 0px;
 }
+.margin-top-bottom-80{
+	margin:80px 0px;
+}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -126,7 +129,7 @@ body{
 	position: relative;
     top: 10px;
 }
-/* .card{ */
+.card-1{
 	box-shadow: 1px 0 15px -1px rgb(0 0 0 / 35%);
     padding: 20px 0px;
 	background: #fff;
@@ -205,23 +208,6 @@ body{
       }
     }
     
-    .date {
-      color: #bb86fc;
-      font-size: 0.85rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    .description {
-      font-size: 0.9rem;
-    }
-    
-    &:nth-child(even) {
-      transform: translateY(8px);
-    }
-    
-    &:nth-child(n) {
-      transform: rotate(-5deg);
-    }
   }
 }
 
@@ -229,6 +215,10 @@ body{
   transform: scale(1.15);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   z-index: 10;
+      border-radius: 5px;
+    padding: 2px;
+	background: #161616;
+	color:white;
 }
 .cards:hover > .card:not(:hover) {
   opacity: 0.5;
@@ -236,4 +226,22 @@ body{
 .ni{
 	
 	background-image:url(../img/rename.png);
+}
+.font-13{
+	font-size:13px;
+}
+.ab::before{
+	    content: "";
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(../img/book.png);
+    wid: 100px;
+    width: 43px;
+    height: 29px;
+    /* background-color: red; */
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+	
 }
